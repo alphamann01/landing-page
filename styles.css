@@ -108,3 +108,57 @@
     font-weight: bold
     
    }
+
+
+
+   .info-container {
+    outline: solid gray;
+    height: 960px;
+
+   }
+
+   .info-box {
+   
+    display: flex;
+    justify-content: center;     
+    height: 500px;
+    
+    
+   }
+
+   .info-item {
+    
+    justify-content: center;
+    margin-top: 100px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: solid #3882f6;
+    border-radius: 20px;
+    margin-top: 200px;
+        
+   }
+.info-para {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    
+    
+  
+}
+   
+
+.info-para p {
+   
+    display: flex;
+   justify-content: center;
+   align-items: start;
+   font-size: 24px;
+  margin-right: 35px;
+   width: 300px;
+   height: 300px;
+  
+}
+
