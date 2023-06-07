@@ -73,24 +73,20 @@
     height:400px;
     background: gray;
     color: #e5e7eb;
-    margin-left: 400px;
-    
+    margin-left: 400px; 
   }
   
   .title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bold;
-    margin: 10px;
-    
-    
+    margin: 10px; 
   }
   
   .header-p {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 10px;
-    
+    margin: 10px; 
   }
   
   .header-anchor {
@@ -106,59 +102,55 @@
     text-decoration: none;
     margin-top: 15px;
     font-weight: bold
-    
-   }
+    }
 
+.info-container {
+  height: 499px;
+  }
 
+.info-h {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 36px;
+  height: 100px;
+  }
 
-   .info-container {
-    outline: solid gray;
-    height: 960px;
+.info-box {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border: solid #3882f6;
+  justify-content: center;
+  align-items: end;
+  border-radius: 20px;
+  margin: 30px;
 
-   }
-
-   .info-box {
-   
-    display: flex;
-    justify-content: center;     
-    height: 500px;
-    
-    
-   }
-
-   .info-item {
-    
-    justify-content: center;
-    margin-top: 100px;
-    margin: 20px;
-    width: 300px;
-    height: 300px;
-    border: solid #3882f6;
-    border-radius: 20px;
-    margin-top: 200px;
-        
-   }
-.info-para {
-    margin-top: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 40px;
-    
-    
-  
 }
-   
 
-.info-para p {
-   
-    display: flex;
-   justify-content: center;
-   align-items: start;
-   font-size: 24px;
-  margin-right: 35px;
-   width: 300px;
-   height: 300px;
-  
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.info-text {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+}
+
+.text-item {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: start;
+  font-size: 28px;
+  margin: 30px;
+  font-weight: bold;
+  color: #1f2937;
 }
 
