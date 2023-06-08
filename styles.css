@@ -44,7 +44,7 @@
   
   .header-container {
     display: flex;
-    height: 960px;
+    height: 1200px;
     background: #1f2937;
     align-items: center;
     
@@ -105,15 +105,18 @@
     }
 
 .info-container {
-  height: 499px;
+  height: 900px;
+  
   }
 
 .info-h {
+  
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: end;
   font-size: 36px;
-  height: 100px;
+  height: 300px;
+  
   }
 
 .info-box {
@@ -132,7 +135,7 @@
   display: flex;
   justify-content: center;
   align-items: end;
-  height: 400px;
+  height: 600px;
   margin-top: 30px;
 }
 
@@ -153,4 +156,76 @@
   font-weight: bold;
   color: #1f2937;
 }
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background: #e5e7eb;
+  
 
+}
+
+.quote-para {
+font-size: 36px;
+font-style: italic;
+}
+.quore-h {
+display: flex;
+flex-direction: row;
+}
+
+.call-to-action {
+display: flex;
+height: 700px;
+justify-content: center;
+align-items: center;
+}
+
+.call-to-action-container {
+  
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 940px;
+  background: #3882f6;
+  height: 140px;
+  border-radius: 10px;
+  color: #fff;
+  
+  
+}
+
+.call-to-action-container h4  {
+  margin-top: 35px;
+  margin-left: 100px;
+  width: 190px;
+  
+}
+.call-to-action-container p {
+  
+ margin-left: 100px;
+  width: 600px;
+  
+}
+.call-sign-up {
+  padding: 10px;
+  border: solid #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+ margin-left: 700px;
+ margin-bottom: 100px;
+ 
+ text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+ 
+}
+
+.move {
+ margin-top: -30px;
+ margin-right: 100px;
+}
